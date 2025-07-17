@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>forecast-advisor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>forecast-advisor</name>
+	<description>A small Spring Boot project that provides weather forecast information based on a given ZIP code, using reactive WebClient and external APIs.</description>
 	<url/>
 	<licenses>
 		<license/>

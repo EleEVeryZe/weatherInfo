@@ -32,4 +32,15 @@ A small Spring Boot project that provides weather forecast information based on 
 git clone https://github.com/EleEVeryZe/weatherInfo.git
 cd forecast-advisor
 ./mvnw clean install
-./mvnw test
+./mvnw spring-boot:run
+```
+### Run image
+```bash
+docker build -t forecast-advisor .
+docker run -d -p 5000:8080 --name my-forecast-app forecast-advisor
+Go to 
+http://localhost:5000/weather-info?zip-code=30662
+```
+
+
+

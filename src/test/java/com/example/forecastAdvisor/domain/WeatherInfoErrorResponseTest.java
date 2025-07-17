@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
 @SpringBootTest
-public class WeatherInfoDTOTest {
+public class WeatherInfoErrorResponseTest {
     WeatherInfoDTO mockedApiResponse = buildWeather();
 
     @Test
